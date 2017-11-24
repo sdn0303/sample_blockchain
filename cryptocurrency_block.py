@@ -21,7 +21,7 @@ class Block(object):
 
     def hash_block(self) -> hash:
         """
-        一個前のindex, timestamp, data, previous_hashのhashを生成
+        index, timestamp, data, previous_hashのhashを生成
         :return: hash
         """
         sha = hashlib.sha256()
